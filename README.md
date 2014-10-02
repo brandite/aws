@@ -53,10 +53,12 @@ Yay! Success
 	* sudo yum install sqlite-devel
 	* sudo yum install -y ruby20-devel gcc-c++
 	* sudo gem install therubyracer
+	* rails new hello
+	* cd hello/
 	* Uncomment gem therubyracer in Gemfile
 	* Add to Gemfile: gem 'oj'
     * Add to Gemfile: gem 'oj_mimic_json'
-	* rails new hello
+    * bundle
 	* rails s
 1. Add a security group to allow inbound connections on port 3000
 
